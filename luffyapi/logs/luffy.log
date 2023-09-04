@@ -1,0 +1,122 @@
+INFO 2023-09-02 14:00:38,151 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 14:00:48,442 basehttp 212 "GET / HTTP/1.1" 200 10664
+WARNING 2023-09-02 14:00:48,722 log 241 Not Found: /favicon.ico
+WARNING 2023-09-02 14:00:48,723 basehttp 212 "GET /favicon.ico HTTP/1.1" 404 2112
+INFO 2023-09-02 14:01:56,480 basehttp 212 "GET / HTTP/1.1" 200 10664
+INFO 2023-09-02 14:01:57,155 basehttp 212 "GET / HTTP/1.1" 200 10664
+INFO 2023-09-02 14:01:57,640 basehttp 212 "GET / HTTP/1.1" 200 10664
+INFO 2023-09-02 14:01:58,161 basehttp 212 "GET / HTTP/1.1" 200 10664
+INFO 2023-09-02 21:51:22,641 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 22:44:23,270 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 22:45:55,602 autoreload 266 D:\PyProject\luffy\luffyapi\venv\Lib\site-packages\django\db\backends\mysql\base.py changed, reloading.
+INFO 2023-09-02 22:45:56,092 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 22:45:58,365 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 22:46:25,887 autoreload 266 D:\PyProject\luffy\luffyapi\venv\Lib\site-packages\django\db\backends\mysql\base.py changed, reloading.
+INFO 2023-09-02 22:47:03,630 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 22:47:32,214 autoreload 266 D:\PyProject\luffy\luffyapi\venv\Lib\site-packages\django\db\backends\base\base.py changed, reloading.
+INFO 2023-09-02 22:47:32,659 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 22:47:34,461 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 22:49:58,037 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 23:01:32,444 autoreload 266 D:\PyProject\luffy\luffyapi\venv\Lib\site-packages\django\db\backends\base\base.py changed, reloading.
+INFO 2023-09-02 23:01:32,934 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 23:01:35,839 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 23:02:20,306 autoreload 266 D:\PyProject\luffy\luffyapi\venv\Lib\site-packages\django\db\backends\base\base.py changed, reloading.
+INFO 2023-09-02 23:02:20,732 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 23:09:16,823 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-03 20:47:09,662 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-03 20:49:31,282 basehttp 212 "GET / HTTP/1.1" 200 10664
+WARNING 2023-09-03 20:49:31,561 log 241 Not Found: /favicon.ico
+WARNING 2023-09-03 20:49:31,562 basehttp 212 "GET /favicon.ico HTTP/1.1" 404 2112
+ERROR 2023-09-03 20:49:46,551 exception 124 Invalid HTTP_HOST header: 'api.luffycity.cn:8000'. You may need to add 'api.luffycity.cn' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.luffycity.cn:8000'. You may need to add 'api.luffycity.cn' to ALLOWED_HOSTS.
+WARNING 2023-09-03 20:49:46,590 log 241 Bad Request: /
+WARNING 2023-09-03 20:49:46,591 basehttp 212 "GET / HTTP/1.1" 400 69270
+ERROR 2023-09-03 20:49:46,913 exception 124 Invalid HTTP_HOST header: 'api.luffycity.cn:8000'. You may need to add 'api.luffycity.cn' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.luffycity.cn:8000'. You may need to add 'api.luffycity.cn' to ALLOWED_HOSTS.
+WARNING 2023-09-03 20:49:46,929 log 241 Bad Request: /favicon.ico
+WARNING 2023-09-03 20:49:46,930 basehttp 212 "GET /favicon.ico HTTP/1.1" 400 69330
+ERROR 2023-09-03 20:51:15,395 exception 124 Invalid HTTP_HOST header: 'www.luffycity.cn:8000'. You may need to add 'www.luffycity.cn' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.luffycity.cn:8000'. You may need to add 'www.luffycity.cn' to ALLOWED_HOSTS.
+WARNING 2023-09-03 20:51:15,410 log 241 Bad Request: /
+WARNING 2023-09-03 20:51:15,410 basehttp 212 "GET / HTTP/1.1" 400 69270
+ERROR 2023-09-03 20:51:15,730 exception 124 Invalid HTTP_HOST header: 'www.luffycity.cn:8000'. You may need to add 'www.luffycity.cn' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.luffycity.cn:8000'. You may need to add 'www.luffycity.cn' to ALLOWED_HOSTS.
+WARNING 2023-09-03 20:51:15,746 log 241 Bad Request: /favicon.ico
+WARNING 2023-09-03 20:51:15,746 basehttp 212 "GET /favicon.ico HTTP/1.1" 400 69330
+INFO 2023-09-03 21:15:28,059 basehttp 212 "GET / HTTP/1.1" 200 10664
+WARNING 2023-09-03 21:15:28,337 log 241 Not Found: /favicon.ico
+WARNING 2023-09-03 21:15:28,338 basehttp 212 "GET /favicon.ico HTTP/1.1" 404 2112
+INFO 2023-09-03 21:18:59,129 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2023-09-03 21:18:59,613 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-03 21:19:11,577 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2023-09-03 21:19:12,099 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-03 21:19:15,664 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2023-09-03 21:19:16,135 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-03 21:19:21,748 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-03 21:19:42,665 basehttp 212 "GET / HTTP/1.1" 200 10664
+WARNING 2023-09-03 21:19:42,976 log 241 Not Found: /favicon.ico
+WARNING 2023-09-03 21:19:42,977 basehttp 212 "GET /favicon.ico HTTP/1.1" 404 2119
+INFO 2023-09-03 21:28:13,359 basehttp 212 "GET / HTTP/1.1" 200 10664
+INFO 2023-09-04 16:03:17,204 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 16:03:39,377 basehttp 212 "GET / HTTP/1.1" 200 10664
+WARNING 2023-09-04 16:03:39,687 log 241 Not Found: /favicon.ico
+WARNING 2023-09-04 16:03:39,689 basehttp 212 "GET /favicon.ico HTTP/1.1" 404 2119
+INFO 2023-09-04 16:04:29,701 basehttp 212 "GET / HTTP/1.1" 200 10664
+WARNING 2023-09-04 16:04:29,836 log 241 Not Found: /favicon.ico
+WARNING 2023-09-04 16:04:29,837 basehttp 212 "GET /favicon.ico HTTP/1.1" 404 2119
+INFO 2023-09-04 16:04:39,891 basehttp 212 "GET / HTTP/1.1" 200 10664
+INFO 2023-09-04 16:08:16,227 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2023-09-04 16:08:16,815 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 16:08:39,393 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2023-09-04 16:08:39,907 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 16:10:23,163 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\urls.py changed, reloading.
+INFO 2023-09-04 16:10:23,771 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 16:10:44,202 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\urls.py changed, reloading.
+INFO 2023-09-04 16:10:44,772 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 16:16:29,146 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2023-09-04 16:16:29,679 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 16:17:54,022 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2023-09-04 16:17:54,547 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 16:18:40,169 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2023-09-04 16:18:40,718 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 16:18:49,910 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2023-09-04 16:18:50,479 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 16:19:01,831 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2023-09-04 16:19:02,352 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 16:20:23,620 autoreload 668 Watching for file changes with StatReloader

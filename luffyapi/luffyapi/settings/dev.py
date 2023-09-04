@@ -18,6 +18,7 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+# 将apps目录下的所有子应用设置为可以直接导入，需要将apps设置为默认导包路径
 
 sys.path.insert(0, os.path.join(BASE_DIR, "apps"))
 
@@ -30,7 +31,10 @@ SECRET_KEY = 'django-insecure-j=((#-5mp6=vduit2hfzkgl%5d)@ckp&48vaxgy4%5fb=0u_1s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "api.luffycity.cn",
+    "www.luffycity.cn"
+]
 
 # Application definition
 
@@ -41,9 +45,24 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'corsheaders',
+    'rest_framework',
+
+    # 子应用
+    'home',
 ]
 
+# CORS组的配置信息
+CORS_ORIGIN_WHITELIST = (
+    # 如果不带协议则需要配置 http://www.luffycity.cn:8080
+    'http://www.luffycity.cn:8080',
+)
+# 允许ajax跨域请求时携带cookie
+CORS_ALLOW_CREDENTIALS = False
+
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -119,9 +138,17 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
+# 访问静态文件的url地址前缀
+STATIC_URL = '/static/'
+# 设置django的静态文件目录
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static")
+]
 
-STATIC_URL = 'static/'
-
+# 项目中存储上传文件的根目录[暂时配置]，注意，uploads目录需要手动创建否则上传文件时报错
+MEDIA_ROOT=os.path.join(BASE_DIR, "uploads")
+# 访问上传文件的url地址前缀
+MEDIA_URL ="/media/"
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
