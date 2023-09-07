@@ -443,3 +443,26 @@ INFO 2023-09-06 17:25:27,904 basehttp 212 "GET /admin/home/banner/ HTTP/1.1" 200
 INFO 2023-09-06 17:25:27,946 basehttp 212 "GET /admin/jsi18n/ HTTP/1.1" 200 8560
 INFO 2023-09-06 17:25:28,783 basehttp 212 "GET /admin/home/banner/ HTTP/1.1" 200 9675
 INFO 2023-09-06 17:25:28,824 basehttp 212 "GET /admin/jsi18n/ HTTP/1.1" 200 8560
+INFO 2023-09-06 19:53:30,581 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 20:40:07,165 basehttp 212 "GET /banner/ HTTP/1.1" 200 387
+INFO 2023-09-06 20:40:17,491 basehttp 212 "GET /banner/ HTTP/1.1" 200 387
+INFO 2023-09-06 20:41:15,384 basehttp 212 "GET /banner/ HTTP/1.1" 200 387
+INFO 2023-09-07 14:28:58,009 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 14:29:21,098 basehttp 212 "GET /banner/ HTTP/1.1" 200 387
+INFO 2023-09-07 16:50:31,195 basehttp 212 "GET /banner/ HTTP/1.1" 200 387
+INFO 2023-09-07 16:51:25,815 basehttp 212 "GET /banner/ HTTP/1.1" 200 387
+INFO 2023-09-07 16:51:33,881 basehttp 212 "GET /banner/ HTTP/1.1" 200 387
+INFO 2023-09-07 16:53:32,324 basehttp 212 "GET /banner/ HTTP/1.1" 200 387
+INFO 2023-09-07 16:53:53,367 basehttp 212 "GET /banner/ HTTP/1.1" 200 387
+INFO 2023-09-07 16:54:58,120 basehttp 212 "GET /banner/ HTTP/1.1" 200 387
+INFO 2023-09-07 16:55:04,197 basehttp 212 "GET /banner/ HTTP/1.1" 200 387
+INFO 2023-09-07 16:56:58,410 basehttp 212 "GET /banner/ HTTP/1.1" 200 387
+INFO 2023-09-07 16:57:04,730 basehttp 212 "GET /banner/ HTTP/1.1" 200 387
+INFO 2023-09-07 17:02:48,938 basehttp 212 "GET /banner/ HTTP/1.1" 200 387
+INFO 2023-09-07 17:09:25,811 basehttp 212 "GET /banner/ HTTP/1.1" 200 387
+INFO 2023-09-07 17:11:30,457 basehttp 212 "GET /media/banner/aigc2049_AI_product_posters_with_refined_technology_minimalisti_2a041c66-e9d1-419b-aad3-0032a879291c.png HTTP/1.1" 200 961619
+INFO 2023-09-07 17:11:30,458 basehttp 212 "GET /media/banner/aigc2049_Epic_scene_from_ancient_Chinese_mythology_celestial_dr_8e0cc4d6-0053-414f-9c1b-3624127a55b0.png HTTP/1.1" 200 951165
+INFO 2023-09-07 17:23:15,205 basehttp 212 "GET /banner/ HTTP/1.1" 200 387
+INFO 2023-09-07 17:25:19,231 basehttp 212 "GET /banner/ HTTP/1.1" 200 387
+INFO 2023-09-07 17:33:39,655 basehttp 212 "GET /banner/ HTTP/1.1" 200 387
+INFO 2023-09-07 17:33:46,973 basehttp 212 "GET /banner/ HTTP/1.1" 200 387

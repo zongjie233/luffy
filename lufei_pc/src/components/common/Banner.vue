@@ -1,35 +1,36 @@
 <script setup>
-
+import  {ref,onMounted,inject} from 'vue'
+const banner_list = ref([]);
+const axios = inject('axios');
+const settings = inject('settings');
+// 在组件挂载后进行 AJAX 请求
+onMounted(async () => {
+   try {
+// 请求轮播图
+    const response = await axios.get(`${settings.HOST}/banner/`);
+    banner_list.value = response.data;
+    console.log(response.data);
+    console.log('请求成功');
+  } catch (error) {
+    console.error(error);
+  }
+  }
+);
 </script>
 
 <template>
- <el-carousel height="720px" :interval="3000" arrow="always">
-    <el-carousel-item>
-      <img src="/static/image/alex.jpeg" alt="">
-    </el-carousel-item>
-    <el-carousel-item>
-      <img src="/static/image/banner1.png" alt="">
-    </el-carousel-item>
-    <el-carousel-item>
-      <img src="/static/image/banner1.png" alt="">
-    </el-carousel-item>
-  </el-carousel>
+  <n-carousel  autoplay show-arrow>
+    <a :href="banner.link" v-for="banner in banner_list" :key="banner.id">
+    <img class="carousel-img" :src= "banner.image_url">
+    </a>
+  </n-carousel>
 </template>
 
 <style scoped>
- .el-carousel__item h3 {
-    color: #475669;
-    font-size: 18px;
-    opacity: 0.75;
-    line-height: 300px;
-    margin: 0;
-  }
+.carousel-img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
 
-  .el-carousel__item:nth-child(2n) {
-    background-color: #99a9bf;
-  }
-
-  .el-carousel__item:nth-child(2n+1) {
-    background-color: #d3dce6;
-  }
 </style>
