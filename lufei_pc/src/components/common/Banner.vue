@@ -9,8 +9,6 @@ onMounted(async () => {
 // 请求轮播图
     const response = await axios.get(`${settings.HOST}/banner/`);
     banner_list.value = response.data;
-    console.log(response.data);
-    console.log('请求成功');
   } catch (error) {
     console.error(error);
   }

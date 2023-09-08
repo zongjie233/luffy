@@ -1,5 +1,19 @@
 <script setup>
-
+import  {ref,onMounted,inject} from 'vue'
+const nav_list = ref([]);
+const axios = inject('axios');
+const settings = inject('settings');
+// 在组件挂载后进行 AJAX 请求
+onMounted(async () => {
+   try {
+    // 请求标题
+    const response = await axios.get(`${settings.HOST}/nav/header/`);
+    nav_list.value = response.data;
+  } catch (error) {
+    console.error(error);
+  }
+  }
+);
 </script>
 <template>
 <div class="header-box">
@@ -9,11 +23,10 @@
           <img src="/static/image/cart.svg" alt="">
         </div>
         <ul class="nav full-left">
-            <li><span>免费课</span></li>
-            <li><span>轻课</span></li>
-            <li><span>学位课</span></li>
-            <li><span>题库</span></li>
-            <li><span>老男孩教育</span></li>
+            <li v-for="nav in nav_list">
+              <span v-if="nav.is_site" ><a :href="nav.link">{{nav.title}}</a></span>
+              <span v-else><router-link :to="nav.link">{{nav.title}}</router-link></span>
+            </li>
         </ul>
         <div class="login-bar full-right">
           <div class="shop-cart full-left">
