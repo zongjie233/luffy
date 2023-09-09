@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 import os
 import sys
 from pathlib import Path
-
+from datetime import timedelta
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'grappelli',
     # 子应用
     'home',
+    'user',
 ]
 
 # CORS组的配置信息
@@ -201,10 +202,24 @@ LOGGING = {
         },
     },
 
-
 }
 
 REST_FRAMEWORK = {
     # 异常处理
     'EXCEPTION_HANDLER': 'luffyapi.utils.exceptions.custom_exception_handler',
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+    )
 }
+
+SIMPLE_JWT = {
+
+    # 设置JWT有效期
+    "ACCESS_TOKEN_LIFETIME": timedelta(minutes=15),
+    "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
+}
+
+# 注册自定义用户模型,只能是应用名字.模型名字
+AUTH_USER_MODEL = 'user.User'

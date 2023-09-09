@@ -34,9 +34,9 @@ onMounted(async () => {
             <span><router-link to="/cart">购物车</router-link></span>
           </div>
           <div class="login-box full-left">
-            <span>登录</span>
-            &nbsp;|&nbsp;
-            <span>注册</span>
+           <router-link to="/user/login">登录</router-link>
+
+
           </div>
         </div>
       </div>
@@ -51,14 +51,14 @@ onMounted(async () => {
 .header{
   width: 100%;
   height: 80px;
-  box-shadow: 0 0.5px 0.5px 0 #c9c9c9;
+  box-shadow: 0 0.5px 0.5px 0 #161e31;
   position: fixed;
   top:0;
   left: 0;
   right:0;
   margin: auto;
   z-index: 99;
-  background: #fff;
+  background: #161e31;
 }
 .header .content{
   max-width: 1200px;
@@ -104,7 +104,7 @@ onMounted(async () => {
 .header .login-bar .shop-cart{
   margin-right: 20px;
   border-radius: 17px;
-  background: #f7f7f7;
+  background: #161e31;
   cursor: pointer;
   font-size: 14px;
   height: 28px;
@@ -114,7 +114,7 @@ onMounted(async () => {
   text-align: center;
 }
 .header .login-bar .shop-cart:hover{
-  background: #f0f0f0;
+  background: #161e31;
 }
 .header .login-bar .shop-cart img{
   width: 15px;
@@ -128,10 +128,10 @@ onMounted(async () => {
   margin-top: 33px;
 }
 .header .login-bar .login-box span{
-  color: #4a4a4a;
+  color: #ffffff;
   cursor: pointer;
 }
 .header .login-bar .login-box span:hover{
-  color: #000000;
+  color: rgb(0, 128, 0);
 }
 </style>
