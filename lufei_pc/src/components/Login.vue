@@ -19,10 +19,15 @@ const loginHandler = async () => {
      // 用户选择了 "记住密码"，使用 localStorage 存储刷新令牌
         localStorage.setItem('refresh_token', response.data.refresh);
      // 同时，将访问令牌存储在 sessionStorage 中，以便在当前标签页中使用
-        sessionStorage.setItem('access_token', response.data.access);
+        localStorage.setItem('access_token', response.data.access);
+        localStorage.setItem('user_id', response.data.id);
+        localStorage.setItem('user_name', response.data.username);
+
   } else {
      // 如果之前有存储的刷新令牌，清除它
         localStorage.removeItem('refresh_token');
+        localStorage.removeItem('user_id');
+        localStorage.removeItem('user_name');
      // 用户没有选择 "记住密码"，只在 sessionStorage 中存储访问令牌
         sessionStorage.setItem('access_token', response.data.access);
   }

@@ -15,6 +15,7 @@ from pathlib import Path
 from datetime import timedelta
 
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -219,7 +220,16 @@ SIMPLE_JWT = {
     # 设置JWT有效期
     "ACCESS_TOKEN_LIFETIME": timedelta(minutes=15),
     "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
+    "TOKEN_OBTAIN_SERIALIZER": 'user.serializers.MyTokenObtainPairSerializer',
 }
+
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',  # 默认的模型认证后端
+    'user.utils.MyCustomBackend',  # 自定义认证后端
+    # 添加其他认证后端...
+]
+
+
 
 # 注册自定义用户模型,只能是应用名字.模型名字
 AUTH_USER_MODEL = 'user.User'
