@@ -59,7 +59,7 @@ INSTALLED_APPS = [
 # CORS组的配置信息
 CORS_ORIGIN_WHITELIST = (
     # 如果不带协议则需要配置 http://www.luffycity.cn:8080
-    'http://www.luffycity.cn:8080',
+    'http://www.luffycity.cn:5000',
 )
 # 允许ajax跨域请求时携带cookie
 CORS_ALLOW_CREDENTIALS = False

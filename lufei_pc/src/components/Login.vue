@@ -1,8 +1,13 @@
 <script setup>
 import {inject, ref} from 'vue';
 import { useMessage } from 'naive-ui'
+import { useRouter } from 'vue-router'
+
+
 const axios = inject('axios');
 const settings = inject('settings');
+const router = useRouter()
+
 const login_type = ref(0);
 const username = ref('');
 const password = ref('');
@@ -19,7 +24,7 @@ const loginHandler = async () => {
      // 用户选择了 "记住密码"，使用 localStorage 存储刷新令牌
         localStorage.setItem('refresh_token', response.data.refresh);
      // 同时，将访问令牌存储在 sessionStorage 中，以便在当前标签页中使用
-        localStorage.setItem('access_token', response.data.access);
+        localStorage.setItem('user_access_token', response.data.access);
         localStorage.setItem('user_id', response.data.id);
         localStorage.setItem('user_name', response.data.username);
 
@@ -29,9 +34,11 @@ const loginHandler = async () => {
         localStorage.removeItem('user_id');
         localStorage.removeItem('user_name');
      // 用户没有选择 "记住密码"，只在 sessionStorage 中存储访问令牌
-        sessionStorage.setItem('access_token', response.data.access);
+        sessionStorage.setItem('user_access_token', response.data.access);
   }
-        console.log(response.data);
+  // 跳转到主页
+     alert('登录成功');
+     router.push('/');
   } catch (error) {
         // console.log(error);
         message.error('用户名或者密码错误,请检查后重新输入')
