@@ -1619,3 +1619,701 @@ INFO 2023-09-12 15:45:56,841 basehttp 212 "GET /nav/footer/ HTTP/1.1" 200 119
 INFO 2023-09-12 15:46:01,786 basehttp 212 "POST /user/login/ HTTP/1.1" 200 556
 INFO 2023-09-12 15:46:02,458 basehttp 212 "GET /nav/header/ HTTP/1.1" 200 238
 INFO 2023-09-12 15:46:02,458 basehttp 212 "GET /banner/ HTTP/1.1" 200 561
+INFO 2023-09-12 15:46:02,458 basehttp 212 "GET /nav/footer/ HTTP/1.1" 200 119
+INFO 2023-09-12 17:56:51,685 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-12 17:56:52,192 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-12 17:57:20,586 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-12 17:57:21,199 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-12 17:58:15,657 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-12 17:58:16,238 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-12 18:10:15,740 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-12 18:10:16,289 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-12 18:12:15,613 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-12 18:12:16,310 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-12 18:18:58,338 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-12 18:18:58,899 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-12 18:20:37,222 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-12 18:21:22,117 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\libs\CaptchaClient.py changed, reloading.
+INFO 2023-09-12 18:21:22,664 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-12 18:22:08,507 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\libs\CaptchaClient.py changed, reloading.
+INFO 2023-09-12 18:22:09,111 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-12 18:24:46,957 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\libs\CaptchaClient.py changed, reloading.
+INFO 2023-09-12 18:24:47,503 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-12 18:25:02,128 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-12 18:25:23,883 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-12 18:25:24,453 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-12 18:27:35,205 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-12 18:27:35,794 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-12 18:28:03,005 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\urls.py changed, reloading.
+INFO 2023-09-12 18:28:03,489 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-12 18:28:13,254 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\urls.py changed, reloading.
+INFO 2023-09-12 18:28:13,877 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-12 18:28:33,461 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\urls.py changed, reloading.
+INFO 2023-09-12 18:28:33,965 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-12 18:28:52,086 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\urls.py changed, reloading.
+INFO 2023-09-12 18:28:52,566 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-12 18:29:16,122 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\urls.py changed, reloading.
+INFO 2023-09-12 18:29:16,663 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-12 18:30:08,734 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\urls.py changed, reloading.
+INFO 2023-09-12 18:30:09,311 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-12 18:30:15,956 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\urls.py changed, reloading.
+INFO 2023-09-12 18:30:16,537 autoreload 668 Watching for file changes with StatReloader
+WARNING 2023-09-12 18:31:09,318 log 241 Not Found: /captcha/
+WARNING 2023-09-12 18:31:09,318 basehttp 212 "GET /captcha/ HTTP/1.1" 404 2919
+WARNING 2023-09-12 18:31:26,019 log 241 Not Found: /captcha/
+WARNING 2023-09-12 18:31:26,020 basehttp 212 "GET /captcha/ HTTP/1.1" 404 2919
+WARNING 2023-09-12 18:31:26,325 log 241 Not Found: /favicon.ico
+WARNING 2023-09-12 18:31:26,325 basehttp 212 "GET /favicon.ico HTTP/1.1" 404 2928
+WARNING 2023-09-12 18:32:56,591 log 241 Method Not Allowed: /user/captcha/
+WARNING 2023-09-12 18:32:56,591 basehttp 212 "GET /user/captcha/ HTTP/1.1" 405 45
+WARNING 2023-09-12 18:33:12,422 log 241 Method Not Allowed: /user/captcha/
+WARNING 2023-09-12 18:33:12,423 basehttp 212 "POST /user/captcha/ HTTP/1.1" 405 46
+INFO 2023-09-12 18:34:44,922 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\libs\CaptchaClient.py changed, reloading.
+INFO 2023-09-12 18:34:45,504 autoreload 668 Watching for file changes with StatReloader
+WARNING 2023-09-12 18:34:57,432 log 241 Method Not Allowed: /user/captcha/
+WARNING 2023-09-12 18:34:57,433 basehttp 212 "GET /user/captcha/ HTTP/1.1" 405 45
+INFO 2023-09-15 08:15:15,490 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 08:16:09,143 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 08:16:18,644 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 08:19:19,308 autoreload 668 Watching for file changes with StatReloader
+ERROR 2023-09-15 08:22:38,046 log 241 Internal Server Error: /user/captcha/
+Traceback (most recent call last):
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: CaptchaAPIView.get() takes 1 positional argument but 2 were given
+ERROR 2023-09-15 08:22:38,048 basehttp 212 "GET /user/captcha/?username=root&password=123 HTTP/1.1" 500 89081
+ERROR 2023-09-15 08:23:45,646 log 241 Internal Server Error: /user/captcha/
+Traceback (most recent call last):
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: CaptchaAPIView.get() takes 1 positional argument but 2 were given
+ERROR 2023-09-15 08:23:45,647 basehttp 212 "GET /user/captcha/?username=root&password=123 HTTP/1.1" 500 89089
+INFO 2023-09-15 08:32:36,326 autoreload 668 Watching for file changes with StatReloader
+WARNING 2023-09-15 08:32:40,003 log 241 Method Not Allowed: /user/captcha/
+WARNING 2023-09-15 08:32:40,004 basehttp 212 "GET /user/captcha/?username=root&password=123 HTTP/1.1" 405 45
+WARNING 2023-09-15 08:33:03,965 log 241 Method Not Allowed: /user/captcha/
+WARNING 2023-09-15 08:33:03,966 basehttp 212 "GET /user/captcha/?username=root&password=123 HTTP/1.1" 405 45
+ERROR 2023-09-15 08:33:25,397 log 241 Internal Server Error: /user/captcha/
+Traceback (most recent call last):
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: CaptchaAPIView.post() takes 1 positional argument but 2 were given
+ERROR 2023-09-15 08:33:25,399 basehttp 212 "POST /user/captcha/?username=root&password=123 HTTP/1.1" 500 89107
+INFO 2023-09-15 09:32:36,282 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 09:32:36,831 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 09:33:04,595 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 09:33:05,097 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 09:35:25,576 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 09:35:26,122 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 09:35:39,497 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 09:35:39,990 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 09:41:08,897 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 09:41:32,367 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 09:41:32,933 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 09:42:38,689 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 09:42:39,293 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 09:42:59,587 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 09:43:00,189 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 09:44:51,001 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 09:44:51,560 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 09:45:19,075 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 09:45:19,659 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 09:46:14,295 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 09:46:14,816 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 09:47:12,623 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 09:47:13,169 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 09:47:17,235 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 09:47:17,752 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 09:48:07,373 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 09:48:08,041 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 09:48:35,702 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 09:48:36,230 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 09:48:55,441 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 09:48:55,986 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 09:49:25,710 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 09:49:26,182 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 09:49:38,571 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 09:49:39,119 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 09:49:55,129 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 09:49:55,718 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 09:50:22,581 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 09:50:23,131 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 09:50:29,034 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 09:50:29,596 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 09:50:38,719 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 09:50:39,261 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 09:51:01,624 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 09:51:02,177 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 09:52:03,851 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 09:52:04,416 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 09:52:44,264 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 09:52:44,781 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 09:52:48,852 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 09:52:49,416 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 09:53:05,382 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 09:53:05,944 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 09:53:27,403 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 09:53:27,961 autoreload 668 Watching for file changes with StatReloader
+ERROR 2023-09-15 09:54:14,629 log 241 Internal Server Error: /user/captcha/
+Traceback (most recent call last):
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py", line 38, in get
+    username = request.data.username
+AttributeError: 'dict' object has no attribute 'username'
+ERROR 2023-09-15 09:54:14,631 basehttp 212 "GET /user/captcha/?username=root&password=123 HTTP/1.1" 500 93996
+WARNING 2023-09-15 10:22:52,881 log 241 Unsupported Media Type: /user/captcha/
+WARNING 2023-09-15 10:22:52,882 basehttp 212 "GET /user/captcha/ HTTP/1.1" 415 66
+ERROR 2023-09-15 10:23:09,843 log 241 Internal Server Error: /user/captcha/
+Traceback (most recent call last):
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py", line 38, in get
+    username = request.data.username
+AttributeError: 'dict' object has no attribute 'username'
+ERROR 2023-09-15 10:23:09,844 basehttp 212 "GET /user/captcha/ HTTP/1.1" 500 93203
+WARNING 2023-09-15 10:23:19,434 log 241 Unsupported Media Type: /user/captcha/
+WARNING 2023-09-15 10:23:19,434 basehttp 212 "GET /user/captcha/ HTTP/1.1" 415 66
+INFO 2023-09-15 10:25:17,054 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 10:25:17,548 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 10:26:01,596 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 10:26:02,142 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 10:26:08,408 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 10:26:08,933 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 10:26:25,959 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 10:26:26,499 autoreload 668 Watching for file changes with StatReloader
+WARNING 2023-09-15 10:26:30,726 log 241 Unsupported Media Type: /user/captcha/
+WARNING 2023-09-15 10:26:30,727 basehttp 212 "GET /user/captcha/ HTTP/1.1" 415 66
+ERROR 2023-09-15 10:30:58,931 log 241 Internal Server Error: /user/captcha/
+Traceback (most recent call last):
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py", line 35, in get
+    username = request.data.username
+AttributeError: 'dict' object has no attribute 'username'
+ERROR 2023-09-15 10:30:58,933 basehttp 212 "GET /user/captcha/ HTTP/1.1" 500 93203
+ERROR 2023-09-15 10:31:47,791 log 241 Internal Server Error: /user/captcha/
+Traceback (most recent call last):
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py", line 35, in get
+    username = request.data.username
+AttributeError: 'dict' object has no attribute 'username'
+ERROR 2023-09-15 10:31:47,793 basehttp 212 "GET /user/captcha/?username=root&password=password HTTP/1.1" 500 94063
+ERROR 2023-09-15 10:32:44,810 log 241 Internal Server Error: /user/captcha/
+Traceback (most recent call last):
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py", line 35, in get
+    username = request.data.username
+AttributeError: 'dict' object has no attribute 'username'
+ERROR 2023-09-15 10:32:44,811 basehttp 212 "GET /user/captcha/ HTTP/1.1" 500 93203
+ERROR 2023-09-15 10:33:43,209 log 241 Internal Server Error: /user/captcha/
+Traceback (most recent call last):
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py", line 35, in get
+    username = request.data.username
+AttributeError: 'dict' object has no attribute 'username'
+ERROR 2023-09-15 10:33:43,210 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 500 93663
+ERROR 2023-09-15 10:33:56,465 log 241 Internal Server Error: /user/captcha/
+Traceback (most recent call last):
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py", line 35, in get
+    username = request.data.username
+AttributeError: 'dict' object has no attribute 'username'
+ERROR 2023-09-15 10:33:56,466 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 500 93661
+ERROR 2023-09-15 10:34:06,960 log 241 Internal Server Error: /user/captcha/
+Traceback (most recent call last):
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py", line 35, in get
+    username = request.data.username
+AttributeError: 'dict' object has no attribute 'username'
+ERROR 2023-09-15 10:34:06,962 basehttp 212 "GET /user/captcha/?username HTTP/1.1" 500 94744
+WARNING 2023-09-15 10:34:07,384 log 241 Not Found: /favicon.ico
+WARNING 2023-09-15 10:34:07,385 basehttp 212 "GET /favicon.ico HTTP/1.1" 404 2928
+ERROR 2023-09-15 10:34:25,700 log 241 Internal Server Error: /user/captcha/
+Traceback (most recent call last):
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py", line 35, in get
+    username = request.data.username
+AttributeError: 'dict' object has no attribute 'username'
+ERROR 2023-09-15 10:34:25,703 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 500 94808
+INFO 2023-09-15 10:35:59,048 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 10:35:59,570 autoreload 668 Watching for file changes with StatReloader
+ERROR 2023-09-15 10:36:14,962 log 241 Internal Server Error: /user/captcha/
+Traceback (most recent call last):
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py", line 35, in get
+    username = request.data.username
+AttributeError: 'dict' object has no attribute 'username'
+ERROR 2023-09-15 10:36:14,964 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 500 93658
+ERROR 2023-09-15 10:36:27,574 log 241 Internal Server Error: /user/captcha/
+Traceback (most recent call last):
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py", line 35, in get
+    username = request.data.username
+AttributeError: 'dict' object has no attribute 'username'
+ERROR 2023-09-15 10:36:27,576 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 500 94942
+INFO 2023-09-15 10:37:47,333 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 10:37:47,815 autoreload 668 Watching for file changes with StatReloader
+ERROR 2023-09-15 10:37:51,989 log 241 Internal Server Error: /user/captcha/
+Traceback (most recent call last):
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py", line 35, in get
+    username = request.data.username
+AttributeError: 'dict' object has no attribute 'username'
+ERROR 2023-09-15 10:37:51,992 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 500 93667
+INFO 2023-09-15 10:39:30,145 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 10:39:30,685 autoreload 668 Watching for file changes with StatReloader
+ERROR 2023-09-15 10:39:34,705 log 241 Internal Server Error: /user/captcha/
+Traceback (most recent call last):
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py", line 36, in get
+    username = request.data.username
+AttributeError: 'dict' object has no attribute 'username'
+ERROR 2023-09-15 10:39:34,706 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 500 93677
+INFO 2023-09-15 10:41:09,583 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 10:41:10,177 autoreload 668 Watching for file changes with StatReloader
+ERROR 2023-09-15 10:41:20,657 log 241 Internal Server Error: /user/captcha/
+Traceback (most recent call last):
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py", line 36, in get
+    username = request.data.username
+AttributeError: 'dict' object has no attribute 'username'
+ERROR 2023-09-15 10:41:20,659 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 500 93675
+INFO 2023-09-15 10:42:27,494 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 10:42:27,972 autoreload 668 Watching for file changes with StatReloader
+ERROR 2023-09-15 10:43:04,324 log 241 Internal Server Error: /user/captcha/
+Traceback (most recent call last):
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\request.py", line 416, in __getattr__
+    return getattr(self._request, attr)
+AttributeError: 'WSGIRequest' object has no attribute 'form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py", line 52, in post
+    challenge = request.form.get(GeetestLib.GEETEST_CHALLENGE, None)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\request.py", line 418, in __getattr__
+    return self.__getattribute__(attr)
+AttributeError: 'Request' object has no attribute 'form'
+ERROR 2023-09-15 10:43:04,326 basehttp 212 "POST /user/captcha/?username=root HTTP/1.1" 500 100779
+ERROR 2023-09-15 10:43:25,971 log 241 Internal Server Error: /user/captcha/
+Traceback (most recent call last):
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py", line 36, in get
+    username = request.data.username
+AttributeError: 'dict' object has no attribute 'username'
+ERROR 2023-09-15 10:43:25,973 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 500 93675
+INFO 2023-09-15 10:44:28,718 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 10:44:29,253 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 10:44:38,661 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 10:44:39,162 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 10:44:41,045 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 10:44:41,533 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 10:44:53,144 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 10:44:53,661 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 10:45:02,016 autoreload 668 Watching for file changes with StatReloader
+WARNING 2023-09-15 10:45:05,097 log 241 Bad Request: /user/captcha/
+WARNING 2023-09-15 10:45:05,098 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 400 29
+INFO 2023-09-15 10:45:18,303 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 10:45:18,837 autoreload 668 Watching for file changes with StatReloader
+ERROR 2023-09-15 10:45:21,410 log 241 Internal Server Error: /user/captcha/
+Traceback (most recent call last):
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py", line 37, in get
+    user = MyCustomBackend.authenticate(username)
+TypeError: MyCustomBackend.authenticate() missing 1 required positional argument: 'request'
+ERROR 2023-09-15 10:45:21,412 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 500 93764
+INFO 2023-09-15 10:46:02,173 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\utils.py changed, reloading.
+INFO 2023-09-15 10:46:02,725 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 10:46:19,432 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\utils.py changed, reloading.
+INFO 2023-09-15 10:46:19,950 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 10:46:55,587 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\utils.py changed, reloading.
+INFO 2023-09-15 10:46:56,107 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 10:47:09,964 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-15 10:47:10,514 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-15 10:47:14,330 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 200 140
+INFO 2023-09-15 10:47:53,216 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 200 7174
+INFO 2023-09-19 14:14:40,647 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-19 14:19:39,284 basehttp 212 "OPTIONS /user/login/ HTTP/1.1" 200 0
+WARNING 2023-09-19 14:19:39,295 log 241 Bad Request: /user/login/
+WARNING 2023-09-19 14:19:39,297 basehttp 212 "POST /user/login/ HTTP/1.1" 400 41
+INFO 2023-09-19 14:20:13,912 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 200 140
+INFO 2023-09-19 14:26:15,543 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-19 14:26:16,268 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-19 14:26:21,192 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 200 140
+INFO 2023-09-19 14:30:37,062 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 200 140
+INFO 2023-09-19 15:05:20,623 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 200 140
+INFO 2023-09-19 15:06:03,132 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 200 140
+INFO 2023-09-19 15:06:51,764 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 200 140
+INFO 2023-09-19 15:08:02,662 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 200 140
+INFO 2023-09-19 15:13:54,443 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 200 140
+INFO 2023-09-19 15:30:55,413 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 200 140
+WARNING 2023-09-19 15:31:04,437 log 241 Bad Request: /user/login/
+WARNING 2023-09-19 15:31:04,438 basehttp 212 "POST /user/login/ HTTP/1.1" 400 41
+INFO 2023-09-19 15:31:52,777 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 200 140
+INFO 2023-09-19 15:32:49,972 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 200 140
+INFO 2023-09-19 15:35:14,606 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 200 140
+INFO 2023-09-19 15:35:59,015 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 200 140
+INFO 2023-09-19 16:58:09,197 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 200 140
+INFO 2023-09-19 17:37:14,173 basehttp 212 "GET /nav/header/ HTTP/1.1" 200 238
+INFO 2023-09-19 17:37:14,176 basehttp 212 "GET /nav/footer/ HTTP/1.1" 200 119
+INFO 2023-09-19 17:37:14,180 basehttp 212 "GET /banner/ HTTP/1.1" 200 561
+INFO 2023-09-19 17:37:14,423 basehttp 212 "GET /media/banner/aigc2049_Epic_scene_from_ancient_Chinese_mythology_celestial_dr_9ef1e6b7-c206-4a2e-becc-c379449b4634_kHrsJPo.png HTTP/1.1" 200 1025057
+INFO 2023-09-19 17:37:14,424 basehttp 212 "GET /media/banner/aigc2049_cinematic_stills_of_Joker_visually_divided_by_4_panels_8d627f9c-ed3e-41a3-a244-14ceaec14536.png HTTP/1.1" 200 1754946
+INFO 2023-09-19 17:37:14,431 basehttp 212 "GET /media/banner/aigc2049_cinematic_stills_of_Keanu_Reeves_visually_divided_by_4_79e31c38-5d12-4ce8-878b-a8ddd04556c3.png HTTP/1.1" 200 2030152
+INFO 2023-09-19 17:37:16,050 basehttp 212 "GET /banner/ HTTP/1.1" 200 561
+INFO 2023-09-19 17:37:16,050 basehttp 212 "GET /nav/header/ HTTP/1.1" 200 238
+INFO 2023-09-19 17:37:16,050 basehttp 212 "GET /nav/footer/ HTTP/1.1" 200 119
+INFO 2023-09-19 17:37:17,569 basehttp 212 "GET /nav/footer/ HTTP/1.1" 200 119
+INFO 2023-09-19 17:37:17,569 basehttp 212 "GET /banner/ HTTP/1.1" 200 561
+INFO 2023-09-19 17:37:17,569 basehttp 212 "GET /nav/header/ HTTP/1.1" 200 238
+INFO 2023-09-19 17:37:19,071 basehttp 212 "GET /nav/header/ HTTP/1.1" 200 238
+INFO 2023-09-19 17:37:19,072 basehttp 212 "GET /nav/footer/ HTTP/1.1" 200 119
+INFO 2023-09-19 17:37:19,072 basehttp 212 "GET /banner/ HTTP/1.1" 200 561
+INFO 2023-09-19 17:47:04,234 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py changed, reloading.
+INFO 2023-09-19 17:47:04,946 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-19 18:13:14,252 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py changed, reloading.
+INFO 2023-09-19 18:13:14,932 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-19 18:13:25,555 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py changed, reloading.
+INFO 2023-09-19 18:13:26,071 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-19 18:14:23,201 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py changed, reloading.
+INFO 2023-09-19 18:14:23,770 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-19 18:15:09,134 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py changed, reloading.
+INFO 2023-09-19 18:15:09,702 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-19 18:16:07,869 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py changed, reloading.
+INFO 2023-09-19 18:16:08,397 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-19 18:16:23,309 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py changed, reloading.
+INFO 2023-09-19 18:16:23,884 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-19 18:17:03,595 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py changed, reloading.
+INFO 2023-09-19 18:17:04,098 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-19 18:17:11,426 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py changed, reloading.
+INFO 2023-09-19 18:17:11,984 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-19 18:17:49,957 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py changed, reloading.
+INFO 2023-09-19 18:17:50,441 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-19 18:17:58,481 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py changed, reloading.
+INFO 2023-09-19 18:17:59,024 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-19 18:18:11,750 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py changed, reloading.
+INFO 2023-09-19 18:18:12,308 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-19 18:18:30,388 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py changed, reloading.
+INFO 2023-09-19 18:18:30,938 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-19 18:18:42,654 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py changed, reloading.
+INFO 2023-09-19 18:18:43,141 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-19 18:19:18,596 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py changed, reloading.
+INFO 2023-09-19 18:19:19,163 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-19 18:19:27,547 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py changed, reloading.
+INFO 2023-09-19 18:19:28,127 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-19 18:20:37,368 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\urls.py changed, reloading.
+INFO 2023-09-19 18:20:37,939 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-19 18:22:15,943 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\urls.py changed, reloading.
+INFO 2023-09-19 18:22:16,563 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-19 18:22:31,113 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\urls.py changed, reloading.
+INFO 2023-09-19 18:22:31,679 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-19 18:23:17,647 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-19 18:23:18,189 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-19 18:23:22,980 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2023-09-19 18:23:23,450 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-19 18:23:35,129 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\urls.py changed, reloading.
+INFO 2023-09-19 18:23:35,671 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-19 18:23:50,589 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\urls.py changed, reloading.
+INFO 2023-09-19 18:23:51,133 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-19 18:41:19,345 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py changed, reloading.
+INFO 2023-09-19 18:41:19,953 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-19 18:44:56,174 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py changed, reloading.
+INFO 2023-09-19 18:44:56,701 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-19 18:47:06,157 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py changed, reloading.
+INFO 2023-09-19 18:47:06,685 autoreload 668 Watching for file changes with StatReloader
