@@ -28,5 +28,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),  # admin site
     re_path(r'media/(?P<path>.*)', serve, {"document_root": settings.MEDIA_ROOT}),
     path('', include('home.urls')),
+    path('user/', include('user.urls')),
 
 ]

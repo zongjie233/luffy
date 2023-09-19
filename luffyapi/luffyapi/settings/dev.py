@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 import os
 import sys
 from pathlib import Path
+from datetime import timedelta
 
 
 
@@ -52,12 +53,13 @@ INSTALLED_APPS = [
     'grappelli',
     # 子应用
     'home',
+    'user',
 ]
 
 # CORS组的配置信息
 CORS_ORIGIN_WHITELIST = (
     # 如果不带协议则需要配置 http://www.luffycity.cn:8080
-    'http://www.luffycity.cn:8080',
+    'http://www.luffycity.cn:5000',
 )
 # 允许ajax跨域请求时携带cookie
 CORS_ALLOW_CREDENTIALS = False
@@ -201,10 +203,33 @@ LOGGING = {
         },
     },
 
-
 }
 
 REST_FRAMEWORK = {
     # 异常处理
     'EXCEPTION_HANDLER': 'luffyapi.utils.exceptions.custom_exception_handler',
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+    )
 }
+
+SIMPLE_JWT = {
+
+    # 设置JWT有效期
+    "ACCESS_TOKEN_LIFETIME": timedelta(minutes=15),
+    "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
+    "TOKEN_OBTAIN_SERIALIZER": 'user.serializers.MyTokenObtainPairSerializer',
+}
+
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',  # 默认的模型认证后端
+    'user.utils.MyCustomBackend',  # 自定义认证后端
+    # 添加其他认证后端...
+]
+
+
+
+# 注册自定义用户模型,只能是应用名字.模型名字
+AUTH_USER_MODEL = 'user.User'
