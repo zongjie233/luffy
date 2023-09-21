@@ -1,7 +1,11 @@
+from django.contrib.auth.hashers import make_password
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 from .models import User
 from rest_framework import serializers
 import re
+
+from .utils import get_user_by_account, get_tokens_for_user
+
 
 class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
     @classmethod
@@ -47,10 +51,13 @@ class UserModelSerializer(serializers.ModelSerializer):
                 "write_only": True,
             }
         }
-    def validate_mobile(self, attrs):
 
+    def validate(self, attrs):
+        mobile = attrs.get('mobile')
+        sms_code = attrs.get('sms_code')
+        password = attrs.get('password')
         """验证手机号"""
-        if not re.match(r'^1[345789]\d{9}$', value):
+        if not re.match(r'^1[345789]\d{9}$', mobile):
             raise serializers.ValidationError('手机号格式错误')
 
         # 验证手机号是否已经被注册了
@@ -63,11 +70,23 @@ class UserModelSerializer(serializers.ModelSerializer):
         #     raise serializers.ValidationError('当前手机号已经被注册')
 
         # 上面验证手机号是否存在的代码[优化版]
-        try:
-            User.objects.get(mobile=value)
-            # 如果有获取到用户信息,则下面的代码不会被执行,如果没有获取到用户信息,则表示手机号没有注册过,可以直接pass
+        ret = get_user_by_account(mobile)
+        if ret is not None:
             raise serializers.ValidationError('当前手机号已经被注册')
-        except:
-            pass
 
-        return value
+        return attrs
+
+    def create(self, validated_data):
+        validated_data.pop('sms_code')
+        raw_password = validated_data.get('password')
+        hash_password = make_password(raw_password)
+        # 对用户名设置默认值
+        username = validated_data.get('mobile')
+
+        user = User.objects.create(
+            mobile=username,
+            username=username,
+            password=hash_password
+        )
+        user.token = get_tokens_for_user(user)
+        return user
