@@ -2317,3 +2317,145 @@ INFO 2023-09-19 18:44:56,174 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi
 INFO 2023-09-19 18:44:56,701 autoreload 668 Watching for file changes with StatReloader
 INFO 2023-09-19 18:47:06,157 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py changed, reloading.
 INFO 2023-09-19 18:47:06,685 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-20 16:52:49,066 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-20 16:53:43,325 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py changed, reloading.
+INFO 2023-09-20 16:53:43,841 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-20 16:53:47,936 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py changed, reloading.
+INFO 2023-09-20 16:53:48,477 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-20 16:54:08,810 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py changed, reloading.
+INFO 2023-09-20 16:54:09,382 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-20 16:54:16,693 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py changed, reloading.
+INFO 2023-09-20 16:54:17,198 autoreload 668 Watching for file changes with StatReloader
+WARNING 2023-09-20 17:01:49,743 log 241 Not Found: /user/
+WARNING 2023-09-20 17:01:49,743 basehttp 212 "POST /user/ HTTP/1.1" 404 3541
+WARNING 2023-09-20 17:02:25,429 log 241 Unsupported Media Type: /user/register/
+WARNING 2023-09-20 17:02:25,430 basehttp 212 "POST /user/register/ HTTP/1.1" 415 66
+ERROR 2023-09-20 17:03:18,968 log 241 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\serializers.py", line 227, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\serializers.py", line 426, in run_validation
+    value = self.to_internal_value(data)
+  File "D:\PyProject\luffy\luffyapi\venv\lib\site-packages\rest_framework\serializers.py", line 485, in to_internal_value
+    validated_value = validate_method(validated_value)
+  File "D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py", line 56, in validate_mobile
+    mobile = attrs.get('mobile')
+AttributeError: 'str' object has no attribute 'get'
+ERROR 2023-09-20 17:03:18,972 basehttp 212 "POST /user/register/ HTTP/1.1" 500 120199
+WARNING 2023-09-20 17:03:24,646 log 241 Unsupported Media Type: /user/register/
+WARNING 2023-09-20 17:03:24,647 basehttp 212 "POST /user/register/ HTTP/1.1" 415 66
+INFO 2023-09-20 17:05:25,522 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py changed, reloading.
+INFO 2023-09-20 17:05:26,113 autoreload 668 Watching for file changes with StatReloader
+WARNING 2023-09-20 17:05:56,854 log 241 Unsupported Media Type: /user/register/
+WARNING 2023-09-20 17:05:56,854 basehttp 212 "POST /user/register/ HTTP/1.1" 415 66
+WARNING 2023-09-20 17:09:43,998 log 241 Bad Request: /user/register/
+WARNING 2023-09-20 17:09:43,999 basehttp 212 "POST /user/register/ HTTP/1.1" 400 46
+INFO 2023-09-20 17:10:56,170 basehttp 212 "POST /user/register/ HTTP/1.1" 201 33
+INFO 2023-09-20 17:46:08,478 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py changed, reloading.
+INFO 2023-09-20 17:46:09,000 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-20 17:46:32,617 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\serializers.py changed, reloading.
+INFO 2023-09-20 17:46:33,157 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-20 17:50:50,103 basehttp 212 "POST /user/register/ HTTP/1.1" 201 273
+INFO 2023-09-21 09:02:38,896 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-21 09:02:53,259 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-21 09:05:30,808 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-21 11:15:35,022 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 200 140
+INFO 2023-09-21 11:15:40,217 basehttp 212 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2023-09-21 11:15:40,399 basehttp 212 "POST /user/login/ HTTP/1.1" 200 556
+INFO 2023-09-21 11:15:42,843 basehttp 212 "GET /nav/header/ HTTP/1.1" 200 238
+INFO 2023-09-21 11:15:42,845 basehttp 212 "GET /nav/footer/ HTTP/1.1" 200 119
+INFO 2023-09-21 11:15:42,846 basehttp 212 "GET /banner/ HTTP/1.1" 200 561
+INFO 2023-09-21 11:15:43,009 basehttp 212 "GET /media/banner/aigc2049_cinematic_stills_of_Keanu_Reeves_visually_divided_by_4_79e31c38-5d12-4ce8-878b-a8ddd04556c3.png HTTP/1.1" 200 2030152
+INFO 2023-09-21 11:15:43,034 basehttp 212 "GET /media/banner/aigc2049_Epic_scene_from_ancient_Chinese_mythology_celestial_dr_9ef1e6b7-c206-4a2e-becc-c379449b4634_kHrsJPo.png HTTP/1.1" 200 1025057
+INFO 2023-09-21 11:15:43,044 basehttp 212 "GET /media/banner/aigc2049_cinematic_stills_of_Joker_visually_divided_by_4_panels_8d627f9c-ed3e-41a3-a244-14ceaec14536.png HTTP/1.1" 200 1754946
+INFO 2023-09-21 11:16:01,200 basehttp 212 "GET /banner/ HTTP/1.1" 200 561
+INFO 2023-09-21 11:16:01,201 basehttp 212 "GET /nav/footer/ HTTP/1.1" 200 119
+INFO 2023-09-21 11:16:01,201 basehttp 212 "GET /nav/header/ HTTP/1.1" 200 238
+INFO 2023-09-21 11:16:12,693 basehttp 212 "GET /nav/footer/ HTTP/1.1" 200 119
+INFO 2023-09-21 11:16:12,695 basehttp 212 "GET /nav/header/ HTTP/1.1" 200 238
+INFO 2023-09-21 11:16:12,695 basehttp 212 "GET /banner/ HTTP/1.1" 200 561
+INFO 2023-09-21 11:18:44,809 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\utils.py changed, reloading.
+INFO 2023-09-21 11:18:45,449 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-21 11:19:54,178 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\utils.py changed, reloading.
+INFO 2023-09-21 11:19:54,738 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-21 11:20:50,031 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 200 140
+INFO 2023-09-21 11:20:54,680 basehttp 212 "POST /user/login/ HTTP/1.1" 200 556
+INFO 2023-09-21 11:20:56,041 basehttp 212 "GET /nav/header/ HTTP/1.1" 200 238
+INFO 2023-09-21 11:20:56,045 basehttp 212 "GET /banner/ HTTP/1.1" 200 561
+INFO 2023-09-21 11:20:56,045 basehttp 212 "GET /nav/footer/ HTTP/1.1" 200 119
+INFO 2023-09-21 11:54:42,211 basehttp 212 "OPTIONS /user/register/ HTTP/1.1" 200 0
+WARNING 2023-09-21 11:54:42,228 log 241 Bad Request: /user/register/
+WARNING 2023-09-21 11:54:42,229 basehttp 212 "POST /user/register/ HTTP/1.1" 400 36
+WARNING 2023-09-21 11:54:51,462 log 241 Bad Request: /user/register/
+WARNING 2023-09-21 11:54:51,463 basehttp 212 "POST /user/register/ HTTP/1.1" 400 36
+WARNING 2023-09-21 11:55:20,607 log 241 Bad Request: /user/register/
+WARNING 2023-09-21 11:55:20,608 basehttp 212 "POST /user/register/ HTTP/1.1" 400 36
+WARNING 2023-09-21 11:56:00,400 log 241 Bad Request: /user/register/
+WARNING 2023-09-21 11:56:00,400 basehttp 212 "POST /user/register/ HTTP/1.1" 400 36
+WARNING 2023-09-21 11:58:24,542 log 241 Bad Request: /user/register/
+WARNING 2023-09-21 11:58:24,543 basehttp 212 "POST /user/register/ HTTP/1.1" 400 36
+WARNING 2023-09-21 11:59:07,156 log 241 Bad Request: /user/register/
+WARNING 2023-09-21 11:59:07,157 basehttp 212 "POST /user/register/ HTTP/1.1" 400 36
+WARNING 2023-09-21 12:00:18,753 log 241 Bad Request: /user/register/
+WARNING 2023-09-21 12:00:18,753 basehttp 212 "POST /user/register/ HTTP/1.1" 400 64
+WARNING 2023-09-21 12:01:16,937 log 241 Bad Request: /user/register/
+WARNING 2023-09-21 12:01:16,938 basehttp 212 "POST /user/register/ HTTP/1.1" 400 64
+WARNING 2023-09-21 12:01:23,541 log 241 Bad Request: /user/register/
+WARNING 2023-09-21 12:01:23,542 basehttp 212 "POST /user/register/ HTTP/1.1" 400 46
+WARNING 2023-09-21 12:01:51,617 log 241 Bad Request: /user/register/
+WARNING 2023-09-21 12:01:51,618 basehttp 212 "POST /user/register/ HTTP/1.1" 400 64
+WARNING 2023-09-21 12:02:15,447 log 241 Bad Request: /user/register/
+WARNING 2023-09-21 12:02:15,447 basehttp 212 "POST /user/register/ HTTP/1.1" 400 64
+WARNING 2023-09-21 12:02:52,088 log 241 Bad Request: /user/register/
+WARNING 2023-09-21 12:02:52,088 basehttp 212 "POST /user/register/ HTTP/1.1" 400 64
+WARNING 2023-09-21 12:03:44,228 log 241 Bad Request: /user/register/
+WARNING 2023-09-21 12:03:44,228 basehttp 212 "POST /user/register/ HTTP/1.1" 400 46
+WARNING 2023-09-21 12:03:56,608 log 241 Bad Request: /user/register/
+WARNING 2023-09-21 12:03:56,609 basehttp 212 "POST /user/register/ HTTP/1.1" 400 64
+INFO 2023-09-21 12:38:41,252 basehttp 212 "POST /user/register/ HTTP/1.1" 201 530
+INFO 2023-09-21 12:38:42,906 basehttp 212 "GET /nav/header/ HTTP/1.1" 200 238
+INFO 2023-09-21 12:38:42,913 basehttp 212 "GET /banner/ HTTP/1.1" 200 561
+INFO 2023-09-21 12:38:42,914 basehttp 212 "GET /nav/footer/ HTTP/1.1" 200 119
+INFO 2023-09-21 12:39:24,948 basehttp 212 "GET /nav/header/ HTTP/1.1" 200 238
+INFO 2023-09-21 12:39:24,955 basehttp 212 "GET /nav/footer/ HTTP/1.1" 200 119
+INFO 2023-09-21 12:39:24,955 basehttp 212 "GET /banner/ HTTP/1.1" 200 561
+INFO 2023-09-21 12:40:29,933 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\utils.py changed, reloading.
+INFO 2023-09-21 12:40:30,461 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-21 12:40:50,242 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\utils.py changed, reloading.
+INFO 2023-09-21 12:40:50,755 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-21 12:41:06,598 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\utils.py changed, reloading.
+INFO 2023-09-21 12:41:07,131 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-21 12:41:12,220 autoreload 266 D:\PyProject\luffy\luffyapi\luffyapi\apps\user\utils.py changed, reloading.
+INFO 2023-09-21 12:41:12,783 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-21 12:41:16,337 basehttp 212 "GET /banner/ HTTP/1.1" 200 561
+INFO 2023-09-21 12:41:16,338 basehttp 212 "GET /nav/footer/ HTTP/1.1" 200 119
+INFO 2023-09-21 12:41:16,338 basehttp 212 "GET /nav/header/ HTTP/1.1" 200 238
+INFO 2023-09-21 12:41:35,470 basehttp 212 "POST /user/register/ HTTP/1.1" 201 272
+INFO 2023-09-21 12:41:38,979 basehttp 212 "GET /nav/footer/ HTTP/1.1" 200 119
+INFO 2023-09-21 12:41:38,979 basehttp 212 "GET /banner/ HTTP/1.1" 200 561
+INFO 2023-09-21 12:41:38,979 basehttp 212 "GET /nav/header/ HTTP/1.1" 200 238
+INFO 2023-09-21 12:41:54,234 basehttp 212 "GET /user/captcha/?username=root HTTP/1.1" 200 140
+INFO 2023-09-21 12:41:59,666 basehttp 212 "POST /user/login/ HTTP/1.1" 200 556
+INFO 2023-09-21 12:42:01,073 basehttp 212 "GET /banner/ HTTP/1.1" 200 561
+INFO 2023-09-21 12:42:01,073 basehttp 212 "GET /nav/footer/ HTTP/1.1" 200 119
+INFO 2023-09-21 12:42:01,073 basehttp 212 "GET /nav/header/ HTTP/1.1" 200 238

@@ -20,6 +20,7 @@ const loginHandler = async () => {
       username: username.value,
       password: password.value
     });
+    console.log(response.data)
     if (remember.value) {
       // 用户选择了 "记住密码"，使用 localStorage 存储刷新令牌
       localStorage.setItem('refresh_token', response.data.refresh);
